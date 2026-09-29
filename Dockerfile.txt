@@ -1,0 +1,14 @@
+# Official Apache HTTP Server image
+FROM httpd:2.4-alpine
+
+# Remove Apache's default web page
+RUN rm -rf /usr/local/apache2/htdocs/*
+
+# Copy ServerDesk web application
+COPY index.html /usr/local/apache2/htdocs/index.html
+
+# Apache listens on port 80
+EXPOSE 80
+
+# Start Apache in foreground mode
+CMD ["httpd", "-D", "FOREGROUND"]

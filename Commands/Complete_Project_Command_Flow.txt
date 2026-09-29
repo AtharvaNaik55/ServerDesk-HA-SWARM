@@ -1,0 +1,43 @@
+1. Create Application
+        ↓
+2. Create index.html
+        ↓
+3. Create Apache Dockerfile
+        ↓
+4. docker build
+        ↓
+5. docker images
+        ↓
+6. docker run
+        ↓
+7. Test Apache with curl
+        ↓
+8. docker login
+        ↓
+9. docker tag
+        ↓
+10. docker push
+        ↓
+11. AWS EC2
+        ↓
+12. docker swarm init
+        ↓
+13. Worker nodes join
+        ↓
+14. docker node ls
+        ↓
+15. docker service create
+        ↓
+16. 3 ServerDesk replicas
+        ↓
+17. docker service ls
+        ↓
+18. docker service ps
+        ↓
+19. docker service scale
+        ↓
+20. Rolling Update
+        ↓
+21. Rollback
+        ↓
+22. Fault-Tolerance Test

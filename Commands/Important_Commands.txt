@@ -1,0 +1,26 @@
+docker build
+docker images
+docker run
+docker ps
+docker logs
+docker login
+docker tag
+docker push
+docker pull
+
+docker swarm init
+docker swarm join-token worker
+docker node ls
+
+docker service create
+docker service ls
+docker service ps
+docker service scale
+docker service update
+docker service rollback
+docker service logs
+docker service rm
+
+docker network ls
+docker network create
+docker network inspect
